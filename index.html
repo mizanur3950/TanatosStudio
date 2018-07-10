@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Media Query CSS-->
+  <link rel="stylesheet" href="css/media.css">
+
+  <title>Tanatos | Studio</title>
+
+</head>
+<body id="home">
+  <header id="main-header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark pt-3 fixed-top" id="main-nav">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Tanatos<span class="text-danger font-weight-bold">Studio</span></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonial" class="nav-link">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a href="#team" class="nav-link">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center text-white">
+      <h1 class="display-4 text-uppercase">We Design <span class="text-danger">Things</span></h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam eligendi eaque, enim facilis. Eos illo similique earum, debitis, suscipit modi.</p>
+      <a href="#modal" class="btn btn-danger text-uppercase mr-3" data-toggle="modal" data-target="#hireModal">Hire Us</a>
+      <a href="#portfolio" class="btn btn-outline-secondary text-uppercase">Our Works</a>
+    </div>
+  </header>
+
+  <!-- Hire Us Modal-->
+  <div class="modal fade" id="hireModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content px-4">
+        <div class="modal-header">
+          <h4 class="modal-title">Hire <span class="text-danger">Us</span></h4>
+          <button class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p class="text-center pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id est similique in.</p>
+          <form>
+            <input type="text" class="form-control mb-3" placeholder="Your Name">
+            <input type="email" class="form-control mb-3" placeholder="Your Email">
+            <textarea rows="10" class="form-control mb-3" placeholder="Message"></textarea>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-outline-danger btn-block" data-dismiss="modal">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="services" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Our <span class="text-danger">Services</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error blanditiis corrupti aliquam adipisci temporibus consectetur! Rerum dignissimos, id.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center">
+            <img src="images/icon1.png" alt="Print Design" class=" card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Print Design</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+            <img src="images/icon2.png" alt="Web Design" class=" card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text text-muted">Nulla ipsum velit, nihil ullam. Vero distinctio eligendi quidem voluptas, ea incidunt?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+            <img src="images/icon3.png" alt="App Design" class=" card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">App Design</h5>
+              <p class="card-text text-muted">Ex perspiciatis, quas dolorem laborum natus suscipit quae, facere qui animi aliquid, illo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+            <img src="images/icon4.png" alt="Logo Design" class=" card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Logo Design</h5>
+              <p class="card-text text-muted">Impedit harum earum enim. Vel iure ipsa ipsum sapiente! Natus voluptates minus, animi numquam illum ab!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 justify-content-start">
+          <input type="email" class="form-control form-control-lg mb-2" placeholder="Enter a valid Email">
+        </div>
+        <div class="col-md-3 justify-content-end">
+          <button class="btn btn-danger btn-block btn-lg mb-2">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Our <span class="text-danger">Works</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error blanditiis corrupti aliquam. Rerum dignissimos, id.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center port-item">
+          <img src="./images/image1.png" alt="" class="img-fluid">
+          <div class="hover text-center text-white">
+            <h3 class="mb-3">Project One</h3>
+            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ration.</p>
+            <a href="#" class="btn btn-outline-light">Show Project</a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center port-item">
+          <img src="./images/image2.png" alt="" class="img-fluid">
+          <div class="hover text-center text-white">
+            <h3 class="mb-3">Project Two</h3>
+            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ration.</p>
+            <a href="#" class="btn btn-outline-light">Show Project</a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center port-item">
+          <img src="./images/image3.png" alt="" class="img-fluid">
+          <div class="hover text-center text-white">
+            <h3 class="mb-3">Project Three</h3>
+            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ration.</p>
+            <a href="#" class="btn btn-outline-light">Show Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center port-item">
+          <img src="./images/image4.png" alt="" class="img-fluid">
+          <div class="hover text-center text-white">
+            <h3 class="mb-3">Project Four</h3>
+            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ration.</p>
+            <a href="#" class="btn btn-outline-light">Show Project</a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center port-item">
+          <img src="./images/image5.png" alt="" class="img-fluid">
+          <div class="hover text-center text-white">
+            <h3 class="mb-3">Project Five</h3>
+            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ration.</p>
+            <a href="#" class="btn btn-outline-light">Show Project</a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center port-item">
+          <img src="./images/image6.png" alt="" class="img-fluid">
+          <div class="hover text-center text-white">
+            <h3 class="mb-3">Project Six</h3>
+            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ration.</p>
+            <a href="#" class="btn btn-outline-light">Show Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <a href="#" class="btn btn-outline-dark">Show More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial" class="py-5">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+          <div class="container">
+            <img src="./images/person1.jpeg" alt="Dave McMillan" class="rounded-circle mt-5">
+            <blockquote class="blockquote text-white">
+              <p class="lead font-italic text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quas cum aut quo inventore, dolor delectus molestiae sint vel similique!</p>
+              <h5>Dave McMillan</h5>
+            </blockquote>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img src="./images/person2.jpeg" alt="Maggie Wheeler" class="rounded-circle mt-5">
+            <blockquote class="blockquote text-white">
+              <p class="lead font-italic text-white">Dolor ducimus quas incidunt, veritatis aut ratione perspiciatis, officia quasi expedita. Inventore, quaerat, nihil? Laudantium hic magni ipsum, enim quam.</p>
+              <h5>Maggie Wheeler</h5>
+            </blockquote>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img src="./images/person3.jpeg" alt="Jimmy Kowlski" class="rounded-circle mt-5">
+            <blockquote class="blockquote text-white">
+              <p class="lead font-italic text-white">Alias ducimus,adipisci nam libero magni! Repellendus explicabo consequatur facere asperiores voluptas id pariatur, doloribus quae.</p>
+              <h5>Jimmy Kowlski</h5>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev mt-5 pt-5 ml-5">
+        <img src="images/arrow_left.png" alt="Prev">
+      </a>
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next mt-5 pt-5 mr-5">
+        <img src="images/arrow_right.png" alt="Next">
+      </a>
+    </div>
+  </section>
+
+  <section id="team" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Our <span class="text-danger">Team</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error blanditiis corrupti aliquam. Rerum dignissimos, id.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <div class="card">
+            <img src="images/team_person1.jpeg" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Catherine Jones</h3>
+              <div class="social">
+                <i class="fab fa-facebook-square fa-2x mr-2"></i>
+                <i class="fab fa-twitter-square fa-2x mr-2"></i>
+                <i class="fab fa-google-plus-square fa-2x"></i>
+              </div>
+              <p class="text-muted pt-3">Seje sit amet consectetur keno elona adipisicing elit. Fugiat, et.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="card">
+            <img src="images/team_person2.jpeg" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Mike Jones</h3>
+              <div class="social">
+                <i class="fab fa-facebook-square fa-2x mr-2"></i>
+                <i class="fab fa-twitter-square fa-2x mr-2"></i>
+                <i class="fab fa-google-plus-square fa-2x"></i>
+              </div>
+              <p class="text-muted pt-3">Dilhum sere ipsum dolor sit amet consectetur adipisicing elit. Fugiat, et.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="card">
+            <img src="images/team_person3.jpeg" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">William Paxton</h3>
+              <div class="social">
+                <i class="fab fa-facebook-square fa-2x mr-2"></i>
+                <i class="fab fa-twitter-square fa-2x mr-2"></i>
+                <i class="fab fa-google-plus-square fa-2x"></i>
+              </div>
+              <p class="text-muted pt-3">Sit amet consectetur adipisicing lorem, ipsum dolor elit. Fugiat, et.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="card">
+            <img src="images/team_person4.jpeg" alt="" class="img-fluid card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Arthur Hobbs</h3>
+              <div class="social">
+                <i class="fab fa-facebook-square fa-2x mr-2"></i>
+                <i class="fab fa-twitter-square fa-2x mr-2"></i>
+                <i class="fab fa-google-plus-square fa-2x"></i>
+              </div>
+              <p class="text-muted pt-3">Ipsum dolor sit amet consectetur adipisicing elit. Fugiat, et.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row text-white">
+        <div class="col text-center">
+          <h2>Say <span class="text-danger">Hello</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error blanditiis corrupti aliquam. Rerum dignissimos, id.</p>
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col">
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control form-control-lg" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control form-control-lg" placeholder="Last name">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col">
+          <form>
+            <textarea rows="10" placeholder="Your Message" class="form-control form-control-lg"></textarea>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 hire_btn mb-2">
+          <a href="" class="btn btn-danger">Hire Us</a>
+        </div>
+        <div class="col-sm-8 social_link">
+          <ul class="nav">
+            <li class="nav-item">
+              <i class="fab fa-facebook-square fa-3x"></i>
+            </li>
+            <li class="nav-item">
+                <i class="fab fa-twitter-square fa-3x"></i>
+            </li>
+            <li class="nav-item">
+                <i class="fab fa-google-plus-square fa-3x"></i>
+            </li>
+            <li class="nav-item">
+                <i class="fab fa-dribbble-square fa-3x"></i>
+            </li>
+            <li class="nav-item">
+                <i class="fab fa-behance-square fa-3x"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h6>&copy; 2015 Copyright Design Studio</h6>
+        </div>
+        <div class="col-md-6">
+            <h6 class="symu">Designed by Symu.co</h6>
+          </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+@media (min-width: 1200px){
+    #main-header h1 {
+        font-size: 4rem;
+    }
+
+    #contact .container {
+        padding: 0 80px !important;
+        padding-top: 30px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #main-header h1 {
+        padding-top: 320px;
+    }
+
+    #testimonial .carousel-control-prev {
+        margin-left: 0 !important;
+    }
+
+    #testimonial .carousel-control-next {
+        margin-right: 0 !important;
+    }
+
+    #contact .container {
+        padding: 0 50px !important;
+        padding-top: 30px !important;
+    }
+
+    #portfolio .hover {
+        width: 290px;
+        height: 290px;
+        margin-left: 4.8% ;
+      }
+    
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+    .navbar-dark .navbar-nav .nav-link{
+        padding: 24px 10px !important;
+      }
+
+    #main-header h1 {
+        padding-top: 320px;
+    }
+    
+    #newsletter {
+        padding-top: 100px;
+    }
+
+    #team .card .card-title,
+    #team .card .fab {
+        font-size: 1.4rem;
+    }
+
+    #contact .container {
+        padding: 0 20px !important;
+        padding-top: 40px !important;
+    }
+
+    #portfolio .hover {
+        width: 210px;
+        height: 210px;
+        margin-left: 5.8% ;
+      }
+     
+    #portfolio .hover p {
+        display: none;
+    }
+    
+    #portfolio .hover .btn {
+        padding: 10px 15px !important;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+    #main-header h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        padding-top: 250px;
+    }
+    
+    #main-header .lead,
+    #services .lead,
+    #portfolio .lead,
+    #team .lead {
+        width: 100%;
+    }
+
+    #newsletter {
+        padding-top: 80px;
+    }
+    
+    #portfolio img {
+        margin-bottom: 10px;
+    }
+
+    #testimonial .carousel-control-prev {
+        margin-left: 0 !important;
+    }
+
+    #testimonial .carousel-control-next {
+        margin-right: 0 !important;
+    }
+
+    #team .card {
+        margin-bottom: 15px;
+    }
+
+    #contact .container {
+        padding: 0  !important;
+    }
+
+    #contact .hire_btn {
+        text-align: center !important;
+    }
+
+    #main-footer {
+        text-align: center;
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    #portfolio .hover {
+        width: 360px;
+        height: 360px;
+        margin-left: 16.5% ;
+      }
+
+}
+
+
+@media screen and (max-width:575.98px){
+    #main-header h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        padding-top: 250px;
+    }
+    
+    #main-header .lead,
+    #services .lead,
+    #portfolio .lead,
+    #team .lead {
+        width: 90%;
+    }
+
+    #newsletter {
+        padding-top: 80px;
+    }
+    
+    #portfolio img {
+        margin-bottom: 10px;
+    }
+
+    #testimonial .carousel-control-prev {
+        margin-left: 0 !important;
+    }
+
+    #testimonial .carousel-control-next {
+        margin-right: 0 !important;
+    }
+
+    #team .card {
+        margin-bottom: 15px;
+    }
+
+    #contact .container {
+        padding: 0 20px !important;
+    }
+
+    #contact .hire_btn {
+        text-align: center !important;
+    }
+
+    #contact .social_link {
+        width: 66% !important;
+        margin: 0 auto;
+    }
+
+    #main-footer {
+        text-align: center;
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    
+#portfolio .hover {
+    width: 360px;
+    height: 360px;
+    margin-left: 18.8% ;
+  }
+  
+}
